@@ -67,6 +67,10 @@ python cv-decode.py
    docker run -p 8001:8001 asr-api
    ```
    - Spins up the ASR inference API at [`http://localhost:8001/asr`](http://localhost:8001/asr).
+   
+**Dataset Download:**  
+The Common Voice dataset is **not included** in the repo for efficiency. Download it here:  
+📥 [Common Voice Dataset](https://www.dropbox.com/scl/fi/i9yvfqpf7p8uye5o8k1sj/common_voice.zip?rlkey=lz3dtjuhekc3xw4jnoeoqy5yu&dl=0)
 
 ---
 
