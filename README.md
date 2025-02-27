@@ -90,6 +90,7 @@ Model: `wav2vec2-large-960h-cv`
 
 ### **Running Locally vs. Google Colab**  
 For local execution, **remove `/content/drive/MyDrive/Colab Notebooks/wav2vec2-finetune/`** from file paths.  
+**Note:** You might need to run `pip install` commands for additional dependencies.
 
 **Dataset Download:**  
 The Common Voice dataset is **not included** in the repo for efficiency. Download it here:  
@@ -115,7 +116,7 @@ Notebook: `cv-hotword-similarity-5b.ipynb`
 - Adds similarity indicators to the original transcription dataset.
 
 ### **Running Locally vs. Google Colab**  
-For local execution, **remove `/content/drive/MyDrive/Colab Notebooks/hotword-detection/`** from file paths.  
+For local execution, **remove `/content/drive/MyDrive/Colab Notebooks/hotword-detection/`** from file paths.
 
 ---
 
