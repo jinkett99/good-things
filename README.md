@@ -22,11 +22,11 @@ pip install -r requirements.txt
 
 ---
 
-## **[Question 2] Deploying an ASR Micro-Service**  
+## **[Question 2] Deploying a Hosted FastAPI Micro-service with ASR inference endpoint**  
 **📂 Directory:** `asr`  
 This module sets up a FastAPI microservice for ASR model inference.
 
-### **2(a) Start the ASR Micro-Service**  
+### **2(a) Start the Hosted FastAPI Micro-Service**  
 ```bash
 cd asr
 uvicorn asr_api:app --port 8001 --reload
@@ -50,11 +50,11 @@ Returns transcription output.
 ```bash
 python cv-decode.py
 ```
-- Sends POST requests to the ASR inference endpoint.  
+- Sends POST requests with audio files to the ASR inference API endpoint.  
 - Transcribes `.mp3` files in the `cv-valid-dev` folder.  
-- Overwrites `cv-valid-dev.csv` with generated text.
+- Overwrites `cv-valid-dev.csv` with new column - generated_text.
 
-### **2(e) Deploy the API in Docker**  
+### **2(e) Deploy the Hosted FastAPI Micro-service in Docker**  
 1. **Build Docker Image**  
    ```bash
    cd app
@@ -66,7 +66,7 @@ python cv-decode.py
    ```bash
    docker run -p 8001:8001 asr-api
    ```
-   - Spins up the ASR inference API at [`http://localhost:8001/asr`](http://localhost:8001/asr).
+   - Spins up the ASR inference API endpoint at [`http://localhost:8001/asr`](http://localhost:8001/asr).
    
 **Dataset Download:**  
 The Common Voice dataset is **not included** in the repo for efficiency. Download it here:  
