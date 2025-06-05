@@ -2,6 +2,7 @@
 *"Good things must share."*
 
 This repository contains scripts and implementations for various **Automatic Speech Recognition (ASR) tasks**, including model deployment, fine-tuning, hot-word detection, and self-supervised learning.
+![Image](images/speech2text.png)
 
 ---
 
