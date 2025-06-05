@@ -6,6 +6,7 @@ This repository contains scripts and implementations for various **Automatic Spe
 This repository was also referenced in my medium article. Check it out! 
 
 [Talking Data — Using Automatic Speech Recognition to Power Language Models](https://medium.com/mitb-for-all/talking-data-using-automatic-speech-recognition-to-power-language-models-9725f0c0b2da)
+
 ![Image](images/speech2text.png)
 
 ---
