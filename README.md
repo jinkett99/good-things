@@ -1,7 +1,10 @@
 # **Good Things** – Automatic Speech Recognition (ASR) Repository  
 *"Good things must share."*
 
-This repository contains scripts and implementations for various **Automatic Speech Recognition (ASR) tasks**, including model deployment, fine-tuning, hot-word detection, and self-supervised learning.
+This repository contains scripts and implementations for various **Automatic Speech Recognition (ASR) tasks**, including model deployment, fine-tuning, hot-word detection (for query retrieval), and a self-supervised learning framework study.
+
+This repository was also referenced in my medium article. Check it out! 
+[Talking Data — Using Automatic Speech Recognition to Power Language Models](https://medium.com/mitb-for-all/talking-data-using-automatic-speech-recognition-to-power-language-models-9725f0c0b2da)
 ![Image](images/speech2text.png)
 
 ---
